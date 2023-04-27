@@ -1,6 +1,21 @@
 # Valida CFDI XML estatus en el SAT usando Python
 Valida cfdi xml status factura en el sat usando python
 
+
+
+
+El nombre del archivo excel esperado es: 
+```bash
+excelInput.xlsx
+
+```
+
+Genera el archivo de salida excel:
+```bash
+excelOutput.xlsx
+```
+
+
 Usar por linea de comandos
 
 
@@ -12,8 +27,6 @@ Usar por linea de comandos
 python.exe main.py
 
 ```
-
-
 
 Log de la operacion
 
@@ -28,17 +41,4 @@ Consultando datos de VRE160427LW1 MOP161124DA6 40580.00 96B3AF7A-8080-11EC-847C-
 Consultando datos de VRE160427LW1 MOP161124DA6 102363.27 E1AE8069-8088-11EC-8C84-00155D014009 el estado del cfdi es : Vigente
 Consultando datos de VRE160427LW1 MOP161124DA6 40950.00 E5CB639A-8085-11EC-B113-00155D014009 el estado del cfdi es : Cancelado
 
-```
-
-
-
-El nombre del archivo excel esperado es: 
-```bash
-excelInput.xlsx
-
-```
-
-Genera el archivo de salida excel:
-```bash
-excelOutput.xlsx
 ```
